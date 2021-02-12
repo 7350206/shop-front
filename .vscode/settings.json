@@ -16,5 +16,10 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-  "prettier.disableLanguages": ["javascript", "javascriptreact"]
+  "prettier.disableLanguages": ["javascript", "javascriptreact"],
+  "emmet.includeLanguages": {
+    "javascript":"javascriptreact",
+  },
+  "emmet.showExpandedAbbreviation": "always",
+  "css.completion.completePropertyWithSemicolon": true
 }

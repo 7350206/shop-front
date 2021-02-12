@@ -1,9 +1,11 @@
-// eslint-disable-next-line react/prop-types
-const Page = ({ children }) => (
-  <>
-    <p>page component</p>
-    <div>{children}</div>
-  </>
-);
+import Header from './Header';
 
-export default Page;
+// eslint-disable-next-line react/prop-types
+export default function Page({ children }) {
+  return (
+    <>
+      <Header />
+      {children}
+    </>
+  );
+}
