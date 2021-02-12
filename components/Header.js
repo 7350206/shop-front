@@ -5,7 +5,7 @@ import Nav from './Nav';
 // to apply - replace h2 to <HomeLogo>
 // will be still rendered as h2 , but got a support class
 const HomeLogo = styled.h2`
-  background: red;
+  background: var(--lightgrey);
   font-size: 2rem;
   margin-left: 1rem;
   position: relative;
